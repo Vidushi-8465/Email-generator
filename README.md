@@ -57,14 +57,7 @@ source venv/bin/activate # Linux / Mac
 ```
 
 ### 3. Run the app
-
-#### Hugging Face version:
-
-```bash
-streamlit run email_generator.py
-```
-
-#### Ollama version:
+#### Ollama:
 
 ```bash
 streamlit run email_generator_ollama.py
@@ -96,11 +89,3 @@ email-generator/
 4. Streamlit displays the generated email to the user.
 
 ---
-
-## 🔧 Future Improvements
-
-* Add a **“Reply to Email”** feature
-* Include **tone and length sliders**
-* Copy-to-clipboard and download options
-* Support for multiple languages
-
